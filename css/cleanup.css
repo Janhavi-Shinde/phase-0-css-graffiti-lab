@@ -9,8 +9,8 @@
     display: none;                  /*works*/
   }
 
-  body div#wall  #tag-3.slick {                   /*not the last child.3rd . div:nth-of-type(4)*/
-    display: none;                     /*doesn't works* is the big one*/
+  body div#wall  #tag-3.slick.wicked {                   /* ? div:nth-of-type(4)*/
+    display: none;                     /*doesn't work (is the big one)*/
   }
 
   
@@ -28,9 +28,9 @@ body div#wall div.parent div:last-child div#tag-6 {      /*works*/
     }
 
     
-     body div#wall div.parent div:last-of-type div#tag-7.slick { 
+ body div#wall div.parent div:last-of-type div#tag-7.slick { 
         background: url(../images/tag-7.png) no-repeat;
-        z-index: 1;                                                 /*doesn't works* is  little girl bottom left*/
+        z-index: 1;                                                 /*doesn't works* (little girl bottom left)*/
         display:none;
     }
          
